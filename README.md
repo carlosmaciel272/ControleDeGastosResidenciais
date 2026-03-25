@@ -1,6 +1,6 @@
 ## Sistema de Controle de Gastos Residenciais
 
-![Descrição](./Captura de Tela 2026-03-25 às 08.20.17.png)
+![Descrição](./thumbnail-README.png)
 
 ## Arquitetura e Design System
 Não usei DDD (Domain Driven Design)
