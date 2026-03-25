@@ -12,7 +12,7 @@ public class Transacao
     public string descricao { get; set; } = string.Empty;
 
     [Range(typeof(decimal), "0.01", "9999999999")]
-    public decimal Valor { get; set; }
+    public decimal valor { get; set; }
     
     [Range(1, int.MaxValue, ErrorMessage = "A finalidade é obrigatória.")]
     public int finalidadeid { get; set; }
