@@ -1,5 +1,7 @@
 ## Sistema de Controle de Gastos Residenciais
-ssssss
+
+![Descrição](./Captura de Tela 2026-03-25 às 08.20.17.png)
+
 ## Arquitetura e Design System
 Não usei DDD (Domain Driven Design)
 Devido ao domínio da aplicação ser simples e com pouca complexidade optei por não utilizar DDD. Em contrapartida utilizei o conceito de camadas de Clean Architecture divindo o backend e a API em camadas com
