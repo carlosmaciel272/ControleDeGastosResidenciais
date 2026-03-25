@@ -50,11 +50,12 @@ Conforme solicitado no Teste, as tecnologias utilizadas foram C#/.NET 10 para o 
 ```
 8. Abra o navegador e cole isso no endereço do site: 
 
-Observações importantes:
-1. Caso você já tenha algum serviço rodando na porta `5432`,`5173` ele vai da erro na construção do container, para resolver isso só alterar o campo `ports` no arquivo dockercompose.yml na raiz do projeto.
-2. Se você já rodou `docker compose up --build` e esperou até o final para concluir a contstrução do container, mas deu algum problema como o de cima, quando você tentar subir de novo o container, derrube o que ele já criou com o comando `docker compose down` e execute com o `docker compose up -d` para não demorar tanto.
 ```
 http://localhost:5173
 ```
 Pronto, o projeto já está no ar!
+
+Observações importantes:
+1. Caso você já tenha algum serviço rodando na porta `5432`,`5173` ele vai da erro na construção do container, para resolver isso só alterar o campo `ports` no arquivo dockercompose.yml na raiz do projeto.
+2. Se você já rodou `docker compose up --build` e esperou até o final para concluir a contstrução do container, mas deu algum problema como o de cima, quando você tentar subir de novo o container, derrube o que ele já criou com o comando `docker compose down` e execute com o `docker compose up -d` para não demorar tanto.
 
