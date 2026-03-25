@@ -42,3 +42,9 @@ CREATE TABLE public."Transacao" (
     CONSTRAINT fk_transacao_pessoa
         FOREIGN KEY (pessoaid) REFERENCES public."Pessoa"(id)
 );
+
+INSERT INTO public."Finalidade" (nome)
+VALUES
+    ('Receita'),
+    ('Despesa'),
+    ('Ambas');
