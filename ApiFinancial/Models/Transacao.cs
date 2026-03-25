@@ -11,9 +11,9 @@ public class Transacao
     [StringLength(400, ErrorMessage = "A descrição deve ter no máximo 400 caracteres.")]
     public string descricao { get; set; } = string.Empty;
 
-    [Range(typeof(decimal), "0,01", "9999999999999999", ErrorMessage = "O valor deve ser maior que zero.")]
-    public decimal valor { get; set; }
-
+    [Range(typeof(decimal), "0.01", "9999999999")]
+    public decimal Valor { get; set; }
+    
     [Range(1, int.MaxValue, ErrorMessage = "A finalidade é obrigatória.")]
     public int finalidadeid { get; set; }
 
