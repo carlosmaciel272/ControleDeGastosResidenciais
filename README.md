@@ -32,10 +32,10 @@ Conforme solicitado no Teste, as tecnologias utilizadas foram C#/.NET 10 para o 
 ## Executando o Projeto
 1. Baixe e Instale o Git, Docker e o docker-compose na sua máquina 
 2. Digite no terminal do Windows ou Linux `git clone https://github.com/carlosmaciel272/ControleDeGastosResidenciais.git` para clonar o projeto 
-3. Entre na pasta /ControleDeGastosResidenciais 
+3. Entre na pasta /ControleDeGastosResidenciais pelo terminal digite isso `cd ControleDeGastosResidenciais`
 4. Para os próximos passos é importante que o serviço do `docker` esteja em execução, se você estiver no linux digite no terminal: `sudo systemctl start docker` 
 5. Ele vai pedir a senha do seu usuário root
-6. Agora digite no terminal `sudo docker compose up --build` Observação: Nesta etapa ela demora de 20 a 30 minutos para construir o container, então só aguarde
+6. Agora dentro da pasta ControleDeGastosResidenciais digite no terminal `sudo docker compose up --build` Observação: Nesta etapa ela demora de 20 a 30 minutos para construir o container, então só aguarde
 7. Depois se aparecer essa mensagem: Então o você já pode acessar a aplicação
 ```
  Image financialcontrol-api            Built                                                                                                                                             19.8s
